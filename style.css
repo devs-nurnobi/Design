@@ -1,0 +1,418 @@
+/* default css */
+img{
+    max-width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header section style css */
+.header{
+    background: #30A836;
+    position: fixed;
+    z-index: 100;
+    margin-top: -49px;
+    width: 100%;
+}
+.header-logo a{
+    display: block;
+}
+.header-logo img{
+    max-width: 130px;
+}
+.header-menu ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 18px;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    line-height: 55px;
+    transition: .4s;
+}
+.header-menu ul li a:hover{
+    background-color: #056d0a;
+}
+
+/* banner section css style */
+.banner{
+    background: url(https://thumbs.dreamstime.com/z/horizontal-frame-tropical-leaves-around-white-empty-rectangle-layout-border-made-elements-185956472.jpg) no-repeat center;
+    background-size: cover;
+    padding: 180px 0;
+}
+.banner-text{
+    position: relative;
+    top: -10px;
+    left: 0;
+}
+.banner h3{
+    background-color:rgb(185, 187, 185);
+    display: inline-block;
+    color: #fff;
+    padding: 8px 17px;
+    border-radius: 5px;
+    font-size: 23px;
+}
+.banner h4{
+    background-color: rgba(48, 168, 54, .4);
+    display: inline-block;
+    color: #111;
+    padding: 9px 25px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/*  about section css style */
+.about{
+    padding: 30px 0;
+    background-color: #d9e2d69f;
+}
+.about h3{
+    font-size: 35px;
+}
+.about p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* service section css style */
+.service{
+    padding: 40px 0;
+}
+.card{
+    box-shadow: 1px 1px 15px rgba(15, 180, 51, 0.616);
+    margin: 20px 0;
+    padding: 0 10px;
+}
+.card span{
+    height: 44px;
+    width: 44px;
+    background-color: #43ce4a;
+    text-align: center;
+    margin: auto;
+    line-height: 44px;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 14px;
+    border-radius: 10px 2px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.card span::after{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    border-radius: 10px 2px;
+    transition: .4s;
+    z-index: -1;
+}
+.card span:hover::after{
+    width: 100%;
+}
+
+.card h3{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.card p{
+    font-size: 15px;
+}
+/* product section css style  */
+.product{
+    padding: 30px 0;
+}
+.product img{
+    margin-bottom: 16px;
+}
+.product p{
+    font-size: 14px;
+}
+.product-right{
+    margin-left: 30px;
+}
+.product-right h2{
+    font-size: 30px;
+    margin-bottom: 19px;
+}
+.product-right h5{
+    font-size: 18px;
+    color: #30A836;
+    background-color: #fff;
+    box-shadow: 1px 1px 9px #30A836;
+    text-align: center;
+    padding: 8px 10px;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+.product-right h5:hover{
+
+    background-color: #49b84f;
+    color: #fff;
+}
+
+
+/* slider section css style */
+.slider{
+    background: url(https://img.freepik.com/free-vector/green-curve-abstract-background_53876-99569.jpg?size=626&ext=jpg) no-repeat center;
+    background-size: cover;
+    padding: 120px 0;
+}
+.slider h2{
+    color: #30A836;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.slider h3{
+    color: #43ce4a;
+    font-size: 26px;
+}
+.slider button{
+    background-color: #30A836;
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 13px;
+    border-radius: 10px 0;
+    margin-top: 27px;
+    transition: .4s;
+    border: none;
+
+}
+.slider button:hover{
+    color: #30A836;
+    background-color: #fff;
+    box-shadow: 1px 1px 9px #30A836;
+    border: none;
+    border-radius:0 10px;
+}
+.slider ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 29px;
+}
+.slider ul li{
+    display: inline-block;
+    margin-right: 14px;
+}
+.slider ul li a{
+    display: block;
+    color: #fff;
+    background-color: #30A836;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    transition: .4s;
+}
+.slider ul li a:hover{
+    color: #30A836;
+    background-color: #fff;
+    box-shadow: 1px 1px 9px #30A836;
+}
+
+/* contact form section */
+.contact-form{
+    margin-top: 30px;
+}
+.contact-form input{
+    box-shadow: 1px 1px 9px #30A836;
+}
+.contact-form textarea{
+    box-shadow: 1px 1px 9px #30A836;
+}
+.contact-form .hkp{
+    transition: .4s;
+    margin-right: 10px;
+}
+.contact-form .hkp:hover{
+    color: #30A836;
+    background-color: #fff;
+    box-shadow: 1px 1px 9px #30A836;
+}
+
+
+/* footer section css style */
+.footer{
+    background-color: #34495e;
+    padding: 20px 0;
+}
+
+/* footer left section */
+.footer-logo{
+    color: #fff;
+}
+.footer-logo img {
+    max-width: 130px;
+}
+.footer-logo h4 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.footer-logo h3 {
+    font-size: 14px;
+    margin-top: -6px;
+}
+.footer-logo h5 {
+    font-size: 14px;
+}
+.footer-logo ul{
+    margin-top: 35px;
+    margin: 0;
+    margin-left: -40px;
+}
+.footer-logo ul li {
+    display: inline-block;
+    padding: 10px 1px;
+}
+.footer-logo ul li a{
+    color: #fff;
+    background-color: #30A836;
+    height: 30px;
+    width: 30px;
+    font-size:17px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: .4s;   
+}
+.footer-logo ul li a:hover{
+    color: #30A836;
+    background-color: #fff;
+    box-shadow: 1px 1px 9px #30A836;
+}
+
+/* footer-middle section */
+
+.footer-middle h2{
+    color: #fff;
+    margin-top: 5px;
+    font-size: 21px;
+    color: #30A836;
+    text-shadow: 1px 1px  rgb(150, 149, 149);
+    margin-left: 5px;
+}
+.footer-middle ul{
+    margin-left:-30px;
+}
+.footer-middle ul li{
+    display: block;
+    color: #fff;
+    /* box-shadow: 1px 1px 3px white; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.267);
+    padding: 5px 2px;
+    margin: 6px 0;
+    font-size: 15px;
+    text-align: center;
+}
+.footer-middle ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: .4s ease;
+}
+.footer-middle ul li a:hover{
+    color:#30A836;
+}
+/* footer-right section */
+.footer-right h2{
+    font-size: 24px;
+    color: #fff;
+}
+.footer-right input{
+    background-color: #fff;
+    border-radius: 30px;
+    height: 30px;
+    width: 70%;
+    border: 2px solid #30A836;
+    padding: 6px 10px;
+    color: #30A836;
+    position: relative;
+    display: inline-block;
+}
+.footer-right input:focus{
+    border: none;
+    box-shadow: 1px 1px 8px #30A836;
+    border: 1px solid #30A836;
+}
+.footer-right button{
+    color: #fff;
+    background-color: #30A836;
+    display: inline-block;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: .4s ease;
+    border: 2px solid transparent;
+}
+.footer-right button:hover{
+    color: #30A836;
+    background-color: #fff;
+    border: 2px solid #30A836;
+}
+.footer-right h3{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 28px;
+}
+.footer-right p{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.445);
+}
+
+/* ending section css style */
+.ending{
+    background-color: #2c3e50;
+}
+.ending h3{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+}
+
+
+@media(max-width:767px){
+    .header-menu ul li a{
+        font-size: 10px;
+        padding: 0 6px;
+    }
+    .header-logo img{
+        max-width: 80px;
+    }
+    .header-logo{
+        margin-top: 7px;
+    }
+}
+@media (max-width:371px){
+    .header-menu ul li a{
+        font-size: 8px;
+    }
+    .header-logo img{
+        max-width: 60px;
+    }
+}
+@media (max-width:331px){
+    .header-menu ul li a{
+        font-size: 6px;
+    }
+    .header-logo img{
+        max-width: 50px;
+    }
+}
+
